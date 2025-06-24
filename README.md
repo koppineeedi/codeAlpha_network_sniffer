@@ -1,19 +1,28 @@
-🕵️‍♀️ Python Network Packet Sniffer
-A beginner-friendly Network Packet Sniffer built with Python and Scapy — perfect for learning how network data flows and how to inspect traffic like a cybersecurity pro 👩‍💻✨
+# 🐍 Network Packet Analyzer (Python)
 
-📌 What It Does
-✅ Captures live network traffic
-✅ Shows source and destination IP addresses
-✅ Detects protocol types (TCP, UDP, ICMP, etc.)
-✅ Displays timestamp and packet count
-✅ Colorful, readable output using colorama
+This is a Python-based packet sniffer that captures and analyzes network traffic in real time using raw sockets. It provides insights into the structure of network packets and how data flows through the network.
 
-🧠 What You'll Learn
-How data moves across the internet
-Basics of network protocols (TCP, UDP, IP, ICMP)
-How to build cybersecurity tools in Python
-Real-time packet analysis for learning and research
-💻 Requirements
-Python 3.x
-Scapy
-Colorama
+---
+
+## 🚀 Features
+
+- Captures Ethernet and IPv4 traffic
+- Identifies protocols: TCP, UDP, ICMP
+- Displays source/destination MAC and IP addresses
+- Extracts and formats payload data
+- Helps understand networking protocol basics
+
+---
+
+## 🔧 Requirements
+
+- Python 3.x
+- Linux OS (for raw socket access via `AF_PACKET`)
+- Run with `sudo`
+
+---
+
+## ▶️ Usage
+
+```bash
+sudo python3 sniffer.py
